@@ -25,7 +25,7 @@ function Footer() {
         setFormStatus("");
 
         try {
-            const response = await fetch("https://formspree.io/f/xblrnndyb", {
+            const response = await fetch("https://formspree.io/forms/xblrnndy", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
