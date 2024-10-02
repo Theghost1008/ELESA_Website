@@ -96,8 +96,7 @@ function Footer() {
             </div>
             <div className="footer-map">
                 <h3>Find Us Here</h3>
-                {/* Replace 'YOUR_LOCATION' with your actual Google Maps location link */}
-                <a href="https://www.google.com/maps/place/Walchand+College+of+Engineering/@16.8457438,74.5988826,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc1237f52c65db5:0xa3535676176ded0a!8m2!3d16.8457387!4d74.6014575!16zL20vMDVoZG5q?entry=ttu&g_ep=EgoyMDI0MDkzMC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.google.com/maps/place/Walchand+College+of+Engineering/@16.8457438,74.5988826,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc1237f52c65db5:0xa3535676176ded0a!8m2!3d16.8457387!4d74.6014575!16zL20vMDVoZG5q?entry=ttu&g_ep=EgoyMDI0MDkzMC4wIKXMDSoASAFQAw%3D%3D" style={{textDecoration:'none'}} target="_blank" rel="noopener noreferrer">
                     View on Google Maps
                 </a>
             </div>
