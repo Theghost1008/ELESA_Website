@@ -1,0 +1,43 @@
+/* Container for About section */
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh; /* Adjust height as necessary */
+    margin-top: 50px; /* Increase gap above the About section */
+}
+
+/* Content styling */
+.about-content {
+    backdrop-filter: blur(10px); /* Blur background */
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    padding: 40px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+    max-width: 600px;
+    width: 100%;
+    font-family: 'Helios', sans-serif;
+    color: white;
+    transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect */
+.about-content:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.7), /* Brighter blur shadow */
+                0 0 25px rgba(255, 255, 255, 0.5); /* Larger blur shadow */
+}
+
+/* Text styling */
+.about-text h2 {
+    font-family: 'Blackpast', sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-text p {
+    font-family: 'Helios', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+}

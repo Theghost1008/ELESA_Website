@@ -1,0 +1,51 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: black; */
+    padding-top: 80px;
+  }
+  .home {
+    width: 100%;
+    max-width: 1300.5px;
+    height: 700px;
+    display: flex;
+    background: url('https://res.cloudinary.com/djdyufvvy/image/upload/v1726649190/ELESA_home_wnie8h.jpg') no-repeat center center/cover;
+    /* background-color: radial-gradient(ellipse at center, #0C1C26 0%,#050A13 100%);; */
+    filter: brightness(0.4);
+    border-radius: 20px;
+  }
+  .home div h1{
+    filter: brightness(1.5);
+  }
+  .glass-effect {
+    width: 1300.5px;
+    height: 700px;
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px); 
+    border-radius: 20px; 
+    border: 1px solid rgba(255, 255, 255, 0.784); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    color:white;
+  }
+  .glass-effect h1, .glass-effect h2 {
+    font-size: 50px;
+    color: #FFFEFE; 
+    background: transparent;
+    z-index: 2; 
+    filter: none;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.8); 
+}
