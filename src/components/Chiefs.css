@@ -67,8 +67,13 @@
     font-size: 1em; /* Reduce paragraph font size */
   }
 
+  .chief-image {
+    width: 70%; /* Adjust to desired size for mobile */
+    max-width: 120px; /* Set a smaller max-width for mobile */
+  }
+
   .chief-card {
-    padding: 15px; /* Reduce padding for smaller screens */
+      padding: 5px; /* Optional: Adjust padding for smaller screens */
   }
 }
 

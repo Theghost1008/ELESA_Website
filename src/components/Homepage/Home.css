@@ -20,11 +20,25 @@ body, html {
     display: flex;
     background: url('https://res.cloudinary.com/djdyufvvy/image/upload/v1726649190/ELESA_home_wnie8h.jpg') no-repeat center center/cover;
     /* background-color: radial-gradient(ellipse at center, #0C1C26 0%,#050A13 100%);; */
-    filter: brightness(0.4);
+    /* filter: brightness(0.4); */
     border-radius: 20px;
+    position: relative;
   }
-  .home div h1{
-    filter: brightness(1.5);
+  .home::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    filter: brightness(0.4); /* Dim the background here */
+    z-index: 1; /* Keep it behind the text */
+    border-radius: 20px;
+}
+  .home .glass-effect .same{
+    z-index: 96;
+    filter: brightness(1);
   }
   .glass-effect {
     width: 1300.5px;
@@ -38,7 +52,7 @@ body, html {
     justify-content: center;
     align-items: center;
     position: relative;
-    z-index: 1;
+    z-index: 2;
     color:white;
   }
   .glass-effect h1, .glass-effect h2 {
@@ -47,5 +61,16 @@ body, html {
     background: transparent;
     z-index: 2; 
     filter: none;
-    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.8); 
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.8);
+    z-index: 3;
+}
+@media(max-width : 768px){
+  .home{
+    background: none;
+  }
+  .glass-effect{
+    background: none;
+    border: none;
+    color: white;
+  }
 }

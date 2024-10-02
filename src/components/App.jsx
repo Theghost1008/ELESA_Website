@@ -53,6 +53,30 @@ function App(){
         autoplay: true,
         autoplaySpeed: 2000,
         initialSlide : 0,
+        responsive: [
+          {
+            breakpoint: 1024, // Adjust for tablets
+            settings: {
+              slidesToShow: 2,
+              centerPadding: "40px",
+            },
+          },
+          {
+            breakpoint: 768, // Adjust for mobile
+            settings: {
+              slidesToShow: 1, // Show 1 slide on mobile
+              centerPadding: "30px",
+              infinite: true,
+            },
+          },
+          {
+            breakpoint: 480, // For smaller phones
+            settings: {
+              slidesToShow: 1, // Show 1 slide on smaller devices as well
+              centerPadding: "20px",
+            },
+          },
+        ],
       };
 
       useEffect(() => {

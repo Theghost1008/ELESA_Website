@@ -163,6 +163,16 @@
       max-width: 100%;
       margin-bottom: 20px;
   }
+  .footer-logo{
+    align-self: center;
+  }
+  .footer-social {
+    align-self: center;
+  }
+  .footer-contact{
+    align-self: center;
+  }
+
 }
 
 @media (max-width: 480px) {
