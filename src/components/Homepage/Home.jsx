@@ -7,7 +7,7 @@ function Home(){
             <div className="home">
                 <div className="glass-effect">
                     <h1 className="same">ELESA</h1>
-                    <h2 className="same">Integrated with Integrity</h2>
+                    <h2 className="same h21">Integrated with Integrity</h2>
                 </div>
             </div>
         </div>
