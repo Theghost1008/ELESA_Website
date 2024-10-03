@@ -20,7 +20,7 @@ function Nav({ scrollToSection, teamSectionRef, activitiesSectionRef, homeSectio
                 <li><a href="#" onClick={()=> scrollToSection(homeSectionRef)}>Home</a></li>
                 <li><a href="#" onClick={()=>scrollToSection(teamSectionRef)}>Our Team</a></li>
                 <li><a href="#" onClick={()=>scrollToSection(activitiesSectionRef)}>Activities</a></li>
-                <li><a href="https://electrovert24.vercel.app/">Electrovert</a></li>
+                <li><a href="https://electrovert24.vercel.app/" target="_blank">Electrovert</a></li>
                 <li><a href="#" onClick={()=>scrollToSection(reachUsSectionRef)}>Reach us</a></li>
             </ul>
         </nav>
