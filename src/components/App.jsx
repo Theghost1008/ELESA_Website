@@ -1,4 +1,4 @@
-import React,{useRef, useEffect, useState, useCallback, act} from "react";
+import {useRef, useEffect, useState, useCallback} from "react";
 import ChiefsList from "./ChiefsList";
 import Chiefs from "./Chiefs";
 import Slider from "react-slick";
